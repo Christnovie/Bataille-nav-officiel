@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+P:/Bataille nav officiel/Bnav/Dessin bateau.h
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+mmsystem.h
+-
+
+P:/Bataille nav officiel/Bnav/jeu classic.h
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+mmsystem.h
+-
+
+P:/Bataille nav officiel/Bnav/jeu.h
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+mmsystem.h
+-
+
+P:/Bataille nav officiel/Bnav/main.c
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+mmsystem.h
+-
+regle.h
+P:/Bataille nav officiel/Bnav/regle.h
+jeu.h
+P:/Bataille nav officiel/Bnav/jeu.h
+Dessin bateau.h
+P:/Bataille nav officiel/Bnav/Dessin bateau.h
+jeu classic.h
+P:/Bataille nav officiel/Bnav/jeu classic.h
+
+P:/Bataille nav officiel/Bnav/regle.h
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+mmsystem.h
+-
+
